@@ -45,7 +45,7 @@
 <p dir="rtl">بايد از عبارت زير براي import استفاده کنيد.</p>
 
 ```objc
-#import <AdjustSdk/Adjust.h>
+#import <MetrixSdk/Metrix.h>
 ```
 <h3 id="basic-setup" dir="rtl">راه اندازي اوليه</h3>
 <div dir="rtl">در Project Navigatorُ فايل منبع application delegate خود را انتخاب کنيد. عبارت import مناسب را در بالاي فايل وارد کنيد و سپس متد زير را در متدهاي didFinishLaunching يا didFinishLaunchingWithOptions فراخواني کنيد.</div>
