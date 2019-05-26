@@ -61,6 +61,7 @@
 </div>
 
   
+<div dir="ltr">
 
 ```ruby
 
@@ -68,7 +69,7 @@ pod 'MetrixSdk', '1.0.1'
 
 ```
 
-  
+  </div>
 
 ---
 
@@ -81,9 +82,10 @@ pod 'MetrixSdk', '1.0.1'
 </div>
 
   
+<div dir="ltr">
 
 *  `MetrixSdk.framework.zip`
-
+</div>
   
 
 <div dir="rtl">از iOS 8 اپل فريم‌ورکهاي پويا (dynamic frameworks يا embedded frameworks) را معرفي کرده است. اگر برنامه‌ شما iOSهاي با نسخه 8 يا بالاتر را هدف‌گذاري کرده است، مي‌توانيد از فريم‌ورک پوياي متريکس استفاده کنيد.</div>
@@ -113,12 +115,14 @@ pod 'MetrixSdk', '1.0.1'
 <p dir="rtl">بايد از عبارت زير براي import استفاده کنيد.</p>
 
   
+<div dir="ltr">
 
 ```objc
 
 #import <MetrixSdk/Metrix.h>
 
 ```
+</div>
 
 <h3 id="basic-setup" dir="rtl">راه اندازي اوليه</h3>
 
@@ -126,6 +130,7 @@ pod 'MetrixSdk', '1.0.1'
 
   
 
+<div dir="ltr">
 ```objc
 
 #import "Metrix.h"
@@ -153,6 +158,7 @@ environment:environment];
 [Metrix appDidLaunch:metrixConfig];
 
 ```
+</div>
 
   
 
