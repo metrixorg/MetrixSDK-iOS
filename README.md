@@ -35,7 +35,6 @@
 
 <a href=#pre-installed-trackers>ردگيرهاي پيش‌نصب</a><br>
 
-</div>
 
 <h2 id=project_setup dir="rtl"> تنظيمات اوليه در پروژه</h2>
 
@@ -332,3 +331,5 @@ MXConfig *metrixConfig = [MXConfig configWithAppId:yourAppId environment:environ
 Tracker token: 'abc123'
 
 ```
+
+</div>
