@@ -131,6 +131,7 @@ pod 'MetrixSdk', '1.0.1'
   
 
 <div dir="ltr">
+  
 ```objc
 
 #import "Metrix.h"
@@ -171,6 +172,7 @@ environment:environment];
 </div>
 
   
+<div dir="ltr">
 
 ```objc
 
@@ -179,6 +181,7 @@ NSString *environment = MXEnvironmentSandbox;
 NSString *environment = MXEnvironmentProduction;
 
 ```
+</div>
 
   
 
@@ -198,7 +201,8 @@ NSString *environment = MXEnvironmentProduction;
 
 </div>
 
-  
+
+<div dir="ltr">  
 
 ```objc
 
@@ -207,6 +211,7 @@ MXCustomEvent *event = [MXCustomEvent newEvent:@"mySlug" attributes:myAttributes
 [Metrix trackCustomEvent:event];
 
 ```
+</div>
 
 <div dir="rtl">
 
@@ -215,6 +220,8 @@ MXCustomEvent *event = [MXCustomEvent newEvent:@"mySlug" attributes:myAttributes
 </div>
 
   
+  
+<div dir="ltr">
 
 ```objc
 
@@ -239,6 +246,7 @@ myAttributes[@"price"] = @(100000);
 myAttributes[@"purchase_time"] = current_time;
 
 ```
+</div>
 
 <h2 id="screen-flow" dir="rtl">ردگيري جريان صفحات</h2>
 
@@ -249,12 +257,14 @@ myAttributes[@"purchase_time"] = current_time;
 </div>
 
   
+<div dir="ltr">
 
 ```objc
 
 [Metrix trackScreen:@"HomePage"];
 
 ```
+</div>
 
 <h2 id="device-ids" dir="rtl">شناسه‌هاي دستگاه</h2>
 
@@ -275,12 +285,14 @@ SDK متريکس امکان دسترسي به برخي شناسه‌هاي دس�
 </div>
 
   
+<div dir="ltr">
 
 ```objc
 
 NSString *idfa = [Metrix idfa];
 
 ```
+</div>
 
 <h3 id="di-mxid" dir="rtl">شناسه متريکس</h3>
 
@@ -296,11 +308,14 @@ NSString *idfa = [Metrix idfa];
 
   
 
+<div dir="ltr">
+  
 ```objc
 
 NSString *mxid = [Metrix mxid];
 
 ```
+</div>
 
 <h2 id="pre-installed-trackers" dir="rtl">ردگيرهاي پيش‌نصب</h2>
 
@@ -313,6 +328,7 @@ NSString *mxid = [Metrix mxid];
 </div>
 
   
+<div dir="ltr">
 
 ```objc
 
@@ -323,6 +339,7 @@ MXConfig *metrixConfig = [MXConfig configWithAppId:yourAppId environment:environ
 [Metrix appDidLaunch:metrixConfig];
 
 ```
+</div>
 
 <div dir="rtl">
 
@@ -331,11 +348,14 @@ MXConfig *metrixConfig = [MXConfig configWithAppId:yourAppId environment:environ
 </div>
 
   
+  
+<div dir="ltr">
 
 ```
 
 Tracker token: 'abc123'
 
 ```
+</div>
 
 </div>
