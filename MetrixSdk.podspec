@@ -8,8 +8,9 @@ Pod::Spec.new do |s|
     s.license           = 'MIT'
 
     s.platform          = :ios
-    s.source            = { :http => 'https://github.com/metrixorg/MetrixSDK-iOS/releases/download/1.0.1/MetrixSdk.framework.native.zip' }
+    s.source            = { :http => 'https://github.com/metrixorg/MetrixSDK-iOS/releases/download/1.1.0/MetrixSdk-native.framework.zip' }
 
+    s.ios.weak_framework = 'AdSupport', 'iAd'
     s.ios.deployment_target = '8.0'
     s.ios.vendored_frameworks = 'MetrixSdk.framework'
 end  
