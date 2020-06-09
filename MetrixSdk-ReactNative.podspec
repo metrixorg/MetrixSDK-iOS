@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name              = 'MetrixSdk-ReactNative'
-    s.version           = '1.2.0'
+    s.version           = '1.2.1'
     s.summary           = 'MetrixSdk is for tracking your app.'
     s.homepage          = 'https://github.com/metrixorg/MetrixSDK-iOS'
 
@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
     }
 
     s.platform          = :ios
-    s.source            = { :http => 'https://github.com/metrixorg/MetrixSDK-iOS/releases/download/1.2.0/MetrixSdk-reactnative.framework.zip' }
+    s.source            = { :http => 'https://github.com/metrixorg/MetrixSDK-iOS/releases/download/1.2.1/MetrixSdk-reactnative.framework.zip' }
 
     s.ios.weak_framework = 'AdSupport', 'iAd'
     s.ios.deployment_target = '8.0'
